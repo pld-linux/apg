@@ -5,8 +5,6 @@ Version:	2.0.0b1
 Release:	1
 License:	BSD
 Group:		Applications/System
-Group(de):	Applikationen/System
-Group(pl):	Aplikacje/System
 Source0:	http://www.adel.nursat.kz/apg/download/%{name}-%{version}.tar.gz
 URL:		http://www.adel.nursat.kz/apg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
