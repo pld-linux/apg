@@ -2,7 +2,7 @@ Summary:	apg - Automated Password Generator
 Summary(pl):	apg - automatyczny generator hase³
 Name:		apg
 Version:	2.0.0b1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Applications/System
 Source0:	http://www.adel.nursat.kz/apg/download/%{name}-%{version}.tar.gz
