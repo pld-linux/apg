@@ -22,7 +22,9 @@ algorytmów i wbudowanego generatora liczb pseudolosowych.
 %setup  -q
 
 %build
-%{__make}
+%{__make} \
+	CC="%{__cc}" \
+	FLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -36,7 +38,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README CHANGES THANKS TODO doc/{APG_TIPS,rfc0972.txt,rfc1750.txt}
+%doc README CHANGES THANKS TODO doc/APG_TIPS
 %attr(755,root,root) %{_bindir}/apg
 %attr(755,root,root) %{_bindir}/apgbfm
 %{_mandir}/man1/*
