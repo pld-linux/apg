@@ -6,6 +6,7 @@ Release:	1
 License:	BSD
 Group:		Applications/System
 Source0:	http://www.adel.nursat.kz/apg/download/%{name}-%{version}.tar.gz
+# Source0-md5:	402769cce2c5ffef9806993d93c5b56d
 URL:		http://www.adel.nursat.kz/apg/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
