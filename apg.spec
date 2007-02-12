@@ -1,5 +1,5 @@
 Summary:	apg - Automated Password Generator
-Summary(pl.UTF-8):   apg - automatyczny generator haseł
+Summary(pl.UTF-8):	apg - automatyczny generator haseł
 Name:		apg
 Version:	2.2.3
 Release:	1
