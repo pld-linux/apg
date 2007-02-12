@@ -1,5 +1,5 @@
 Summary:	apg - Automated Password Generator
-Summary(pl):	apg - automatyczny generator hase≥
+Summary(pl.UTF-8):   apg - automatyczny generator hase≈Ç
 Name:		apg
 Version:	2.2.3
 Release:	1
@@ -15,9 +15,9 @@ apg generates several random passwords. It uses several password
 generation algorithms (currently two) and a built-in pseudo random
 number generator.
 
-%description -l pl
-apg generuje losowe has≥a. Korzysta z kilku (aktualnie dwÛch)
-algorytmÛw i wbudowanego generatora liczb pseudolosowych.
+%description -l pl.UTF-8
+apg generuje losowe has≈Ça. Korzysta z kilku (aktualnie dw√≥ch)
+algorytm√≥w i wbudowanego generatora liczb pseudolosowych.
 
 %prep
 %setup  -q
